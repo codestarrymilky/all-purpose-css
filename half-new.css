@@ -1,0 +1,44 @@
+@import url("https://fastly.jsdelivr.net/gh/Etinjat/CSS@Theme/THEME_normalize-archived_min.css");
+@import url("https://fastly.jsdelivr.net/gh/Etinjat/CSS@Theme/THEME_BHL-archived_min.css");
+@import url("https://fastly.jsdelivr.net/gh/Etinjat/CSS@Backrooms/004v_THEME-liminal_base.css");
+@import url("https://fastly.jsdelivr.net/gh/Etinjat/CSS@Backrooms/003v_THEME-liminal_new-BHL.css");
+@import url("https://fastly.jsdelivr.net/gh/Etinjat/CSS@Backrooms/001v_THEME-liminal_centered-header.css");
+@import url("https://fastly.jsdelivr.net/gh/Etinjat/CSS@Backrooms/000v_THEME-liminal_collapsible-sidebar.css");
+
+#header h1 a::before { 
+  color: rgb(var(--swatch-headerh1-color));
+}
+
+@media (min-width: 767px) { 
+  #side-bar{ 
+    left:0
+  }
+}
+
+@media only screen and (min-width: 769px){
+  #side-bar :is(.side-block:nth-child(4), 
+  .side-block:nth-child(5),
+  .side-block:nth-child(3)
+  ) {
+    margin-top:-0.5rem;
+  }
+}
+
+.hovertip {
+  display: block;
+  text-align: left;
+  max-width: max-content;  
+}
+
+
+
+ @media (max-width: 500px){
+     .footnotes-footer {
+           width: 100%;
+  }
+}
+
+
+.side-block.media{
+  margin-left:0 !important;;
+}
