@@ -1,1 +1,1 @@
-.demo::before{content:"{$mode}";}
+.demo::before{content:var(--content);}
